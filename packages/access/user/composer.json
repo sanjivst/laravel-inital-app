@@ -1,0 +1,11 @@
+{
+    "name": "access/user",
+    "type": "project",
+    "authors": [
+        {
+            "name": "pratima",
+            "email": "adhipratimaa@gmail.com"
+        }
+    ],
+    "require": {}
+}

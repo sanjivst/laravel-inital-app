@@ -1,0 +1,11 @@
+{
+    "name": "access/post",
+    "type": "project",
+    "authors": [
+        {
+            "name": "samikshya",
+            "email": "samikshya.lamichhane111@gmail.com"
+        }
+    ],
+    "require": {}
+}

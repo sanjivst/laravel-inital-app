@@ -1,0 +1,13 @@
+{
+    "name": "access/theme",
+    "description": "Display part for the project",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Nabin Kumar Singh",
+            "email": "touhnabin@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}

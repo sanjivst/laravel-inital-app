@@ -1,0 +1,11 @@
+#cover_image
+{
+    height:200px;
+    margin-bottom: -120px;
+}
+
+.profile-user-img {
+    margin-left: 15px ;
+    min-height: 160px;
+    min-width: 160px;
+}
