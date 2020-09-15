@@ -9,8 +9,6 @@ use Access\Setting\Setup;
 use Access\Post\Category;
 use Access\Post\Type;
 use Access\Page\Page;
-use Access\Media\Gallery;
-use Access\Media\Media;
 
 
 class Get
@@ -180,19 +178,5 @@ class Get
     public static function category()
     {
         return Category::all();
-    }
-
-    public static function gallery(){
-        return Gallery::all();
-    }
-
-    public static function medias(){
-        return Media::all();
-    }
-    
-    public static function postGallery($type='',$limit=5)
-    {
-        $t = Type::where('name',$type)->first();
-        return (!$t)?null:Post::where('status',1)->where('type_id',$t->id)->has('gallery')->orderBy('created_at','desc')->limit($limit)->get();
     }
 }

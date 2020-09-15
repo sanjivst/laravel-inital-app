@@ -151,9 +151,9 @@
                     <div class="input-group">
                         <input type="text" name="q" class="form-control" placeholder="Search...">
                         <span class="input-group-btn">
-                <button type="submit" name="search" id="search-btn" class="btn btn-flat"><i class="fa fa-search"></i>
-                </button>
-              </span>
+                            <button type="submit" name="search" id="search-btn" class="btn btn-flat"><i class="fa fa-search"></i>
+                            </button>
+                        </span>
                     </div>
                 </form>
                 <!-- /.search form -->
@@ -173,8 +173,8 @@
                         <a href="#">
                             <i class="fa fa-columns"></i> <span>Page</span>
                             <span class="pull-right-container">
-              <i class="fa fa-angle-left pull-right"></i>
-            </span>
+                                <i class="fa fa-angle-left pull-right"></i>
+                            </span>
                         </a>
                         <ul class="treeview-menu">
                             <li class="pages_create"><a href="{{url('admin/pages/create')}}"><i class="fa fa-circle-o"></i> Create Page</a></li>
@@ -205,8 +205,8 @@
                         <a href="#">
                             <i class="fa fa-pencil-square"></i> <span>Comments</span>
                             <span class="pull-right-container">
-              <i class="fa fa-angle-left pull-right"></i>
-            </span>
+                                <i class="fa fa-angle-left pull-right"></i>
+                            </span>
                         </a>
                         <ul class="treeview-menu">
                             <li class="comments_create"><a href="{{url('admin/comments/create')}}"><i class="fa fa-circle-o"></i> Create Comments</a></li>
@@ -243,59 +243,12 @@
                         </ul>
                     </li>
 
-                    <li class="treeview media galleries">
-                        <a href="#">
-                            <i class="fa fa-file-movie-o"></i> <span>Media</span>
-                            <span class="pull-right-container">
-              <i class="fa fa-angle-left pull-right"></i>
-            </span>
-                        </a>
-                        <ul class="treeview-menu">
-                            <li class="media_create"><a href="{{url('admin/media/create')}}"><i class="fa fa-circle-o"></i> Create Media</a></li>
-                            <li class="media_list"><a href="{{url('admin/media')}}"><i class="fa fa-circle-o"></i> Media List</a></li>
-                            <li class="galleries_create"><a href="{{url('admin/galleries/create')}}"><i class="fa fa-circle-o"></i> Create Gallery</a></li>
-                            <li class="galleries_list"><a href="{{url('admin/galleries')}}"><i class="fa fa-circle-o"></i> Galleriy List</a></li>
-                            <li class="gallery_media_create"><a href="{{url('admin/gallery_media_create')}}"><i class="fa fa-circle-o"></i>Add Media in Gallery</a></li>
-                        </ul>
-                    </li>
-
-
-                    {{--
-                    <li class="treeview advertisement">
-                        <a href="#">
-                            <i class="fa fa-image"></i>
-                            <span>Advertisement</span>
-                            <span class="pull-right-container">
-                                <i class="fa fa-angle-left pull-right"></i>
-                            </span>
-                        </a>
-                        <ul class="treeview-menu">
-                            <li class="advertisement-create"><a href="{{url('admin/advertises/create')}}"><i class="fa fa-circle-o"></i> Create Advertise</a></li>
-                            <li class="advertisement-list"><a href="{{url('admin/advertises')}}"><i class="fa fa-circle-o"></i> List Advertise</a></li>
-                        </ul>
-                    </li>
-
-                    <li class="treeview seos">
-                        <a href="#">
-                            <i class="fa fa-google"></i>
-                            <span>Seo</span>
-                            <span class="pull-right-container">
-                                <i class="fa fa-angle-left pull-right"></i>
-                            </span>
-                        </a>
-                        <ul class="treeview-menu">
-                            <li class="seos-create"><a href="{{url('admin/seos/create')}}"><i class="fa fa-circle-o"></i> Create Seo</a></li>
-                            <li class="seos-list"><a href="{{url('admin/seos')}}"><i class="fa fa-circle-o"></i> List Seo</a></li>
-                        </ul>
-                    </li>
-                    --}}
-
-        <li class="treeview setup">
+                    <li class="treeview setup">
                         <a href="#">
                             <i class="fa fa-gg"></i> <span>Setup</span>
                             <span class="pull-right-container">
-              <i class="fa fa-angle-left pull-right"></i>
-            </span>
+                                <i class="fa fa-angle-left pull-right"></i>
+                            </span>
                         </a>
                         <ul class="treeview-menu">
                             <li class="setup_list"><a href="{{url('admin/setup')}}"><i class="fa fa-circle-o"></i> Setup</a></li>
@@ -306,25 +259,20 @@
                         <a href="#">
                             <i class="fa fa-newspaper-o"></i> <span>Theme</span>
                             <span class="pull-right-container">
-              <i class="fa fa-angle-left pull-right"></i>
-            </span>
+                                <i class="fa fa-angle-left pull-right"></i>
+                            </span>
                         </a>
                         <ul class="treeview-menu">
                             <li class="theme_list"><a href="{{url('admin/themes')}}"><i class="fa fa-circle-o"></i> Themes </a></li>
                         </ul>
                     </li>
                     @endif
-                    {{-- Sidebar for other
-                    @if(Auth::user()->scope->name == "Other")                                      
-                    
-                    @include('sidebar.other_menu')
-                    @endif  --}}
 
                 </ul>
             </section>
             <!-- /.sidebar -->
         </aside>
-@endguest
+    @endguest
 
 <!-- Content Wrapper. Contains page content -->
     <div class="content-wrapper">

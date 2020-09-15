@@ -173,7 +173,6 @@ return [
         Access\Setting\SetupServiceProvider::class,
         Access\Theme\ThemeServiceProvider::class,
         Access\Page\PageServiceProvider::class,
-        Access\Media\MediaServiceProvider::class,
 
         Access\User\UserServiceProvider::class,
 

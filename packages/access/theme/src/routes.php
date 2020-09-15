@@ -9,8 +9,8 @@ Route::group(['middleware'=>['web','auth','checkScope:Admin'],'namespace'=>'Acce
 Route::group(['namespace'=>'Access\Theme','middleware'=>'web'],function () {
     Route::get('/', 'PublicController@home');
 
-    Route::post('find','PublicController@find');
+    // Route::post('find','PublicController@find');
 
-	Route::get('/detail/{slug}','PublicController@singlePost');
+	// Route::get('/detail/{slug}','PublicController@singlePost');
    	Route::get('/{page}','PublicController@page');
 });
